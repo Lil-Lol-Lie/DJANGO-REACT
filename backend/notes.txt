@@ -1,0 +1,11 @@
+1. Create Models (Database Layer):
+Purpose: Define the structure of your data and how it will be stored in the database.
+2. Convert Models to JSON (Serialization Layer):
+Purpose: Convert the data from the models into JSON format for easy transmission over the web (e.g., via APIs).
+3. Create Views (Controller Layer):
+Purpose: Handle the logic of your application, such as fetching data, processing it, and sending the appropriate response.
+4. Setting Up URLs (Routing Layer):
+Purpose: Map URLs to the appropriate views so users can interact with your API.
+5. User Interaction:
+Purpose: Allow users to interact with the data via the frontend or API clients.
+In summary, you start by defining the structure of your data with models, then convert this data to/from JSON with serializers, and finally set up views and URLs to handle user interactions, making sure to enforce permissions and business logic as needed.
